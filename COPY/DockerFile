@@ -1,4 +1,4 @@
 FROM run:1.0
-RUN rm -rf /usr/share/nginx/html/index.html
-COPY index.html /user/share/nginx/html/index.html
+RUN rm -rf  /usr/share/nginx/html/index.html
+COPY index.html  /user/share/nginx/html/index.html
 CMD ["nginx", "-g", "daemon off;"]
